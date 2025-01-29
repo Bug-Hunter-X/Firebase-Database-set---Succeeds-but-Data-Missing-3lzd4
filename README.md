@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Firebase Realtime Database where the `set()` method appears to succeed but the data is not written. The `bug.js` file contains the problematic code. The solution, shown in `bugSolution.js`, addresses the underlying cause of the issue by properly handling security rules and data structure.
